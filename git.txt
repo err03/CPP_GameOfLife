@@ -1,0 +1,104 @@
+--.gitignore	//文件用来阻止某个后缀名的文件
+*.class
+*.txt
+--
+//配置用户名和邮箱
+git config --global user.name ""
+git config --global user.email""
+
+//查看用户名和邮箱
+git config user.name
+git config user.email
+//生成密钥
+ssh-keygen -t rsa -C "your email"
+	// users/用户/.ssh	-密钥目录
+		id_rsa		-私钥
+		id_rsa.pub	-公钥，用于上传至远端仓库
+	//向github添加公钥，settings -> ssh and gpgkeys
+//验证
+ssh git@github.com or ssh -T git@github.com
+
+//远程控制目标仓库
+git remote add origin xxx		//origin 是名字， 可以命名
+git remote -v	//查看远程仓库
+git remote remove xxx	//删除remote
+-- 常用指令
+git init		//在指定目录下创建仓库
+
+git add "" 	//if you add file
+	git add -f ""	//if you really want to add something
+	git add *	//easy add whole files
+	git add .*
+git rm xx.xx	//删除
+git commit -m ""
+git status
+git diff xx.xx	//查看修改内容
+git log		//查看提交记录
+git push
+git pull	origin [branch]	//当前拿到目标整个远程的仓库
+git branch	//查看当前和branch, 和git branch xxx 创建branch
+git chekcout xxx	//切换branch
+git revert HEAD	//撤销当前操作
+	git revert HEAD HEAD 	//如果想抵消多个提交,比如，抵消前两个提交，要像下面这样写。
+git restore ""	//if you want to discharge the change
+--terminal 指令
+rm -r *	//删除当前目录下所有文件	-r 强制删除， -f是系统不提示
+mkdir	//创建文件夹
+mv abc fgh	//更改文件夹名字
+mv abc test1	//移动文件到存在的文件夹
+--vim 指令
+//如果当前是recording，按esc 然后q
+:w	//保存修改
+:x	//保存并退出
+--md 文件
+#一级标题  
+##二级标题  
+###三级标题  
+####四级标题  
+#####五级标题  
+######六级标题 
+<br> 	//文本换行
+/<br>	//不使用效果，直接打出
+tab tab xxx	//效果实现单行效果，但是如果上面有一行字体，上面必须要空一行
+thank `you` 	//高亮效果，不是单引号，是tab上面
+[jj](http://google.com "sss")	//文字超链接，加悬停显示
+<img src="" width="200" height="400" alt="" title="">	//html 也可以用来显示图片
+* xxx 	//圆点符
+- xxx	//圆点符
+>数据结构  	//这个可以用来引用别人的文章
+>>树  
+>>>二叉树  
+>>>>平衡二叉树  
+>>>>>满二叉树  
+![baidu](http://www.baidu.com/img/bdlogo.gif "")	//来源于网络的图片
+-插入代码
+```java		//这个是java插入代码
+xxx	//java
+```
+	ex: ```c
+	```Bash
+	```javascript
+	```cpp
+-table
+|a|b|
+|---|---|
+|||
+
+---	//横线
+//斜体、粗体、删除线可混合使用
+*斜体1*		//斜体1
+_斜体2_		//斜体2
+**粗体1**		//粗体1
+__粗体2__		//粗体2
+~~删除线~~	//删除线
+***斜粗体1***	//斜粗体1
+___斜粗体2___	//斜粗体2
+***~~斜粗体删除线1~~***	//斜粗体删除线1
+~~***斜粗体删除线2***~~	//斜粗体删除线2
+
+[xx](#xx)	//每一个标题都是一个锚点
+
+- [x] xxx
+- [] xxx		//复选框
+
+

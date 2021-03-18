@@ -1,7 +1,7 @@
 # CPP_GameOfLife
 
 
-## `Lucid Chart` - [CPP Game of Life](https://lucid.app/lucidchart/99aec52f-19a8-41a2-9398-1c6e92c4c090/edit?beaconFlowId=F92CA501A1A26C7B&page=0_0# "game_of_life")
+`Lucid Chart` - [CPP Game of Life](https://lucid.app/lucidchart/99aec52f-19a8-41a2-9398-1c6e92c4c090/edit?beaconFlowId=F92CA501A1A26C7B&page=0_0# "game_of_life")
 
 
 ## Index Image <br>

@@ -11,4 +11,4 @@
 - drawGraph()
 - generateCell()
 > determine Functions
-  - determineOutOfRange()
+>>  - determineOutOfRange()

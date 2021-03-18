@@ -9,10 +9,10 @@
 
 ## Require Functions
 > Graph Function - functions about update or draw graph
->> `drawGraph()`[x]
+>> - [x] `drawGraph()`
 
 > About Cell Function - functions that about cells
->> `generateCell()`[x]
+>> - [x] `generateCell()`
 
 > determine Functions -  functions that determine true or false
->>  `determineOutOfRange()`[x]
+>>  - [x] `determineOutOfRange()`

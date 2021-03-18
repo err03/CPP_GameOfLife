@@ -8,13 +8,11 @@
 <img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/array_8_8.PNG" alt="8*8" title="8*8">
 
 ## Require Functions
-> Graph Function - functions about update or draw graph
+           > Graph Function - functions about update or draw graph
 >> - [x] `drawGraph()`
 
-> About Cell Function - functions that about cells
+          > About Cell Function - functions that about cells
 >> - [x] `generateCell()`
 
-> determine Functions -  functions that determine true or false
+          > determine Functions -  functions that determine true or false
 >>  - [x] `determineOutOfRange()`
-
-     xxx

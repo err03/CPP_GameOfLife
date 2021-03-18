@@ -16,6 +16,7 @@
  - [x] `generateCell()`
  - [ ] `birthCell()`
  - [ ] `killCell()`
+ - [ ] `updateCell()`
 <br>
 
 

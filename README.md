@@ -14,6 +14,8 @@
 
             About Cell Function - functions that about cells
  - [x] `generateCell()`
+ - [ ] `birthCell()`
+ - [ ] `killCell()`
 <br>
 
 

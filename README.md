@@ -9,10 +9,10 @@
 
 ## Require Functions
 > Graph Function
->> drawGraph()
+>> `drawGraph()`
 
 > About Cell Function
->> generateCell()
+>> `generateCell()`
 
 > determine Functions
->>  - determineOutOfRange()
+>>  `determineOutOfRange()`

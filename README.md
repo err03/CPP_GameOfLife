@@ -14,13 +14,13 @@
 
             About Cell Function - functions that about cells
  - [x] `generateCell()` - generate 25 cells, with random index[ROL][COL]
- - [ ] `birthCell()`
- - [ ] `killCell()`
- - [ ] `updateCell()`
+ - [ ] `birthCell()` - if near cells are excatly 3, then birth a cell
+ - [ ] `killCell()` - if near cells are single, or more than 3, then kill the cell
+ - [ ] `updateCell()` - update the current cell's status then drawGraph()
 <br>
 
 
             determine Functions -  functions that determine true or false
- - [x] `determineOutOfRange()`
- - [ ] `determineNearCell()`
+ - [x] `determineOutOfRange()` - determine if out of range, because only 8*8 arrays
+ - [ ] `determineNearCell()` - determine the number of near cell, then do killCell() or birthCell()
 <br>

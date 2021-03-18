@@ -21,4 +21,5 @@
 
             determine Functions -  functions that determine true or false
  - [x] `determineOutOfRange()`
+ - [ ] `determineNearCell()`
 <br>

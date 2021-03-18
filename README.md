@@ -11,8 +11,8 @@
             Graph Function - functions about update or draw graph
  - [x] `drawGraph()`
 
-           About Cell Function - functions that about cells
+            About Cell Function - functions that about cells
  - [x] `generateCell()`
 
-           determine Functions -  functions that determine true or false
+            determine Functions -  functions that determine true or false
  - [x] `determineOutOfRange()`

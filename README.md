@@ -9,11 +9,11 @@
 
 ## Require Functions
             Graph Function - functions about update or draw graph
- - [x] `drawGraph()`
+ - [x] `drawGraph()` - cout the graph, to watch every happen
  <br>
 
             About Cell Function - functions that about cells
- - [x] `generateCell()`
+ - [x] `generateCell()` - generate 25 cells, with random index[ROL][COL]
  - [ ] `birthCell()`
  - [ ] `killCell()`
  - [ ] `updateCell()`

@@ -8,4 +8,7 @@
 <img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/array_8_8.PNG" alt="8*8" title="8*8">
 
 ## Require Functions
-- 
+- drawGraph()
+- generateCell()
+- determine Functions
+  - determineOutOfRange()

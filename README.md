@@ -10,5 +10,5 @@
 ## Require Functions
 - drawGraph()
 - generateCell()
-- determine Functions
+> determine Functions
   - determineOutOfRange()

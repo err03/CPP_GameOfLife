@@ -5,4 +5,5 @@
  *      Author: error
  */
 
-void determineOutOfRange(int,int);
+bool determineOutOfRange(int,int);
+bool determineNearCell(int,int,int);

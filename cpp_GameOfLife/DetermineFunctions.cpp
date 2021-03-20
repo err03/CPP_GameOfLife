@@ -8,17 +8,23 @@
 //#include "Graph.h"
 //#include "DetermineFunctions.h"
 
-void determineOutOfRange(int curRol,int curCol,int ROL,int COL){
+bool determineOutOfRange(int curRol,int curCol,int ROL,int COL){
 	/*
 	 * determine out of index
 	 */
 	if((curRol-1) < 0){
-		return;
+		return true;
 	}else if((curCol-1) < 0){
-		return;
+		return true;
 	}else if((curRol+1) > ROL){
-		return;
+		return true;
 	}else if((curCol+1) > COL){
-		return;
+		return true;
 	}
+	return false;
 }//determine out of range
+
+bool determineNearCell(int cell,int rol,int col){
+
+	return false;
+}//determine near cell

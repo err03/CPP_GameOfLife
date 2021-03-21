@@ -14,13 +14,20 @@
 
             About Cell Function - functions that about cells
  - [x] `generateCell()` - generate 25 cells, with random index[ROL][COL]
- - [ ] `birthCell()` - if near cells are excatly 3, then birth a cell
- - [ ] `killCell()` - if near cells are single, or more than 3, then kill the cell
- - [ ] `updateCell()` - update the current cell's status then drawGraph()
 <br>
 
 
             determine Functions -  functions that determine true or false
- - [x] `determineOutOfRange()` - determine if out of range, because only 8*8 arrays
- - [ ] `determineNearCell()` - determine the number of near cell, then do killCell() or birthCell()
+ - [x] `determineNearCell()` - determine the number of near cell, then do killCell() or birthCell()
+ - [x] `determineDeath()` - determine the death, return true/false
+ - [x] `determineBirth()` - determine the brith, return true/false
+ - [x] `determinenMoreCell()` - determine is array have any cell, return true/false
+ - [x] `determineTop()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineLeft()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineRight()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineDown()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineTop_Left()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineTop_Right()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineDown_Left()` - determine the position valid && have cell or not; if yes ++
+ - [x] `determineDown_Right()` - determine the position valid && have cell or not; if yes ++
 <br>

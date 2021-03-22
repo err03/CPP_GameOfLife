@@ -5,7 +5,7 @@
 <img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/flowchart_gameOfLife.pdf" alt="flowchart" title="game of life">
 
 ## Index Image <br>
-<img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/array_8_8.PNG" alt="8*8" title="8*8">
+<img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/flowchart_gameOfLife.png" alt="8*8" title="8*8" width="400" height="400">
 
 ## Require Functions
             Graph Function - functions about update or draw graph

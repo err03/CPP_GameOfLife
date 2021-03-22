@@ -2,10 +2,11 @@
 
 
 `Lucid Chart` - [CPP Game of Life](https://lucid.app/lucidchart/99aec52f-19a8-41a2-9398-1c6e92c4c090/edit?beaconFlowId=F92CA501A1A26C7B&page=0_0# "game_of_life")
-<img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/flowchart_gameOfLife.pdf" alt="flowchart" title="game of life">
+<br>
+<img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/flowchart_gameOfLife.png" alt="flowchart" title="game of life">
 
 ## Index Image <br>
-<img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/flowchart_gameOfLife.png" alt="8*8" title="8*8" width="400" height="400">
+<img src = "https://github.com/err03/CPP_GameOfLife/blob/test-file/array_8_8.PNG" alt="8*8" title="8*8">
 
 ## Require Functions
             Graph Function - functions about update or draw graph

@@ -32,4 +32,9 @@
  - [x] `determineTop_Right()` - determine the position valid && have cell or not; if yes ++
  - [x] `determineDown_Left()` - determine the position valid && have cell or not; if yes ++
  - [x] `determineDown_Right()` - determine the position valid && have cell or not; if yes ++
+
+
+
+
+[Back to TOP](#CPP_GameOfLife)
 <br>

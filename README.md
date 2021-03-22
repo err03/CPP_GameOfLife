@@ -20,7 +20,7 @@
 
 
             determine Functions -  functions that determine true or false
- - [x] `determineNearCell()` - determine the number of near cell, then do killCell() or birthCell()
+ - [x] `determineNearCell()` - determine the number of near cell, then do kill cell or birth cell
  - [x] `determineDeath()` - determine the death, return true/false
  - [x] `determineBirth()` - determine the brith, return true/false
  - [x] `determinenMoreCell()` - determine is array have any cell, return true/false
